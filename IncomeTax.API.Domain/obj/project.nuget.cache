@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pg0GDPKQCdS8rhULcXX9bY7PDnjwRYBwTq41K4UP1G4Qq5L21FeNoo9aPXoKylbOdxT9hBcRQTmsAwVJ6x4/8A==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

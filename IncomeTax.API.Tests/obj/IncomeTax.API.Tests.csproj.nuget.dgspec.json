@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Tests\\IncomeTax.API.Tests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\IncomeTax.API.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\IncomeTax.API.Client.csproj",
+        "projectName": "IncomeTax.API.Client",
+        "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\IncomeTax.API.Client.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj"
+              },
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\IncomeTax.API.Persistence.EF.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\IncomeTax.API.Persistence.EF.csproj"
+              },
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj",
+        "projectName": "IncomeTax.API.Domain",
+        "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\IncomeTax.API.Persistence.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\IncomeTax.API.Persistence.EF.csproj",
+        "projectName": "IncomeTax.API.Persistence.EF",
+        "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\IncomeTax.API.Persistence.EF.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Persistence.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj",
+        "projectName": "IncomeTax.API.Services",
+        "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Tests\\IncomeTax.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Tests\\IncomeTax.API.Tests.csproj",
+        "projectName": "IncomeTax.API.Tests",
+        "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Tests\\IncomeTax.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\IncomeTax.API.Client.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Client\\IncomeTax.API.Client.csproj"
+              },
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Domain\\IncomeTax.API.Domain.csproj"
+              },
+              "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj": {
+                "projectPath": "c:\\Users\\SAMSUNG\\Documents\\C#\\kinvo-back-end-test\\calculo-imposto-renda\\src\\API\\IncomeTax.API.Services\\IncomeTax.API.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\bin\Debug\netstandard2.0\IncomeTax.API.Domain.deps.json
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\bin\Debug\netstandard2.0\IncomeTax.API.Domain.dll
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\bin\Debug\netstandard2.0\IncomeTax.API.Domain.pdb
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.csprojAssemblyReference.cache
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.AssemblyInfoInputs.cache
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.AssemblyInfo.cs
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.dll
+C:\Users\SAMSUNG\Documents\C#\calculo-imposto-renda\src\API\IncomeTax.API.Domain\obj\Debug\netstandard2.0\IncomeTax.API.Domain.pdb

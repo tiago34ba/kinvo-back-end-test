@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IncomeTax.API.Client</name>
+    </assembly>
+    <members>
+        <member name="T:IncomeTax.API.Client.Controllers.BasicWageController">
+            <summary>
+            Controller que expõe endpoints para atualizar o valor do salário mínimo.
+            </summary>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.BasicWageController.GetBasicWageDataAsync">
+            <summary>
+            Retorna os dados do salário mínimo atual.
+            </summary>
+            <returns>Recurso com os dados do salário mínimo atual.</returns>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.BasicWageController.RecordBasicWageDataAsync(IncomeTax.API.Client.Resources.BasicWageResource)">
+            <summary>
+            Atualiza os dados do salário mínimo atual.
+            </summary>
+            <param name="basicWageResource">Dados do salário mínimo.</param>
+            <returns>Dados atualizados do salário mínimo.</returns>
+        </member>
+        <member name="T:IncomeTax.API.Client.Controllers.TaxpayersController">
+            <summary>
+            Controller que expõe endpoints para criar, ler, atualizar e excluir contribuintes do imposto de renda.
+            </summary>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.TaxpayersController.ListAsync">
+            <summary>
+            Retorna os dados de todos os contribuintes do imposto de renda cadastrados na base de dados.
+            </summary>
+            <returns>Enumeração de dados dos contribuintes.</returns>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.TaxpayersController.GetByIdAsync(System.Int32)">
+            <summary>
+            Retorna um contribuinte do imposto de renda por ID.
+            </summary>
+            <param name="id">ID do contribuinte.</param>
+            <returns>Dados do contribuinte.</returns>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.TaxpayersController.CreateAsync(IncomeTax.API.Client.Resources.SaveTaxpayerResource)">
+            <summary>
+            Cria um contribuinte e grava na base de dados.
+            </summary>
+            <param name="saveTaxpayerResource">Dados para criação do contribuinte.</param>
+            <returns>Dados do contribuinte cadastrado.</returns>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.TaxpayersController.UpdateAsync(System.Int32,IncomeTax.API.Client.Resources.SaveTaxpayerResource)">
+            <summary>
+            Atualiza os dados de um contribuinte.
+            </summary>
+            <param name="id">Código do contribuinte.</param>
+            <param name="saveTaxpayerResource">Dados do contribuinte para atualização.</param>
+            <returns>Dados atualizados do contribuinte.</returns>
+        </member>
+        <member name="M:IncomeTax.API.Client.Controllers.TaxpayersController.DeleteAsync(System.Int32)">
+            <summary>
+            Exclui os dados de um contribuinte.
+            </summary>
+            <param name="id">Código do contribuinte.</param>
+            <returns>Dados excluídos do contribuinte.</returns>
+        </member>
+        <member name="T:IncomeTax.API.Client.Mapping.ModelToResourceProfile">
+            <summary>
+            Mapeamento das models de domínio para classes de recurso da API.
+            </summary>
+        </member>
+        <member name="T:IncomeTax.API.Client.Mapping.ResourceToModelProfile">
+            <summary>
+            Mapeamentos das classes de recuro da API para models de domínio.
+            </summary>
+        </member>
+        <member name="T:IncomeTax.API.Client.Resources.BasicWageResource">
+            <summary>
+            Recurso que representa os dados de salário mínimo.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.BasicWageResource.Value">
+            <summary>
+            Valor do salário mínimo.
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:IncomeTax.API.Client.Resources.SaveTaxpayerResource">
+            <summary>
+            Recurso para gravação de dados de um contribuine do imposto de renda.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.SaveTaxpayerResource.Name">
+            <summary>
+            Nome do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.SaveTaxpayerResource.CPF">
+            <summary>
+            CPF do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.SaveTaxpayerResource.NumberOfDependents">
+            <summary>
+            Número de dependentes do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.SaveTaxpayerResource.MonthlyGrossIncome">
+            <summary>
+            Renda bruta mensal do contribuinte.
+            </summary>
+        </member>
+        <member name="T:IncomeTax.API.Client.Resources.TaxpayerResource">
+            <summary>
+            Recurso para envio de dados de um contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.Id">
+            <summary>
+            Código do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.Name">
+            <summary>
+            Nome do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.CPF">
+            <summary>
+            CPF do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.NumberOfDependents">
+            <summary>
+            Número de dependentes do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.MonthlyGrossIncome">
+            <summary>
+            Renda bruta mensal do contribuinte.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.IncomeTaxRatePercentage">
+            <summary>
+            Alíquota do imposto de renda.
+            </summary>
+        </member>
+        <member name="P:IncomeTax.API.Client.Resources.TaxpayerResource.TotalIncomeTax">
+            <summary>
+            Total de imposto a pagar.
+            </summary>
+        </member>
+    </members>
+</doc>
